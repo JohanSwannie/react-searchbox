@@ -17,8 +17,8 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    const filteredSearchPersons = people.filter((monster) => {
-      return monster.name.toLocaleLowerCase().includes(searchField);
+    const filteredSearchPersons = people.filter((member) => {
+      return member.name.toLocaleLowerCase().includes(searchField);
     });
 
     setSearchPersons(filteredSearchPersons);
