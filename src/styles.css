@@ -5,7 +5,7 @@ body {
 }
 
 .search-box {
-  width: 12rem;
+  width: 24rem;
   height: 2rem;
   color: #000;
   border: 2px solid #000;
@@ -54,4 +54,9 @@ h1 {
 img {
   width: 12rem;
   height: 8rem;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.8;
 }
